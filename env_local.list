@@ -1,0 +1,7 @@
+#Use this file to setup environment vars for testing on local environment
+APP_ENV=local
+DB_HOSTNAME=db
+DB_PORT=5432
+DB_USERNAME=my_user
+DB_PASSWORD=my_pwd
+DB_NAME=my_db
