@@ -2,7 +2,7 @@ from wsgiref.simple_server import make_server
 import falcon
 
 class HealthcheckResource:
-    def on_get(self, req, resp):
+    def on_get(self, req, resp, place_holder=None):
         """Handles GET requests"""
         resp.status = falcon.HTTP_200
         resp.content_type = falcon.MEDIA_TEXT
